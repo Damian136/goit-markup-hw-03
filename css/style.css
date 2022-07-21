@@ -72,11 +72,6 @@ ul {
   font-size: 16px;
   line-height: 30px;
   color: #ffffff;
-}
-.button:hover {
-  cursor: pointer;
-}
-.button {
   background-color: #2196f3;
 }
 .title_profile {
@@ -125,6 +120,19 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+}
+.button-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.button-list:hover {
+  background-color: #2196f3;
+  cursor: pointer;
 }
 .category {
   font-family: "Roboto";
