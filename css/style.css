@@ -16,6 +16,9 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-text-color);
@@ -206,25 +209,30 @@ body {
   padding-bottom: 50px;
 }
 .pictures {
-  border: 1px solid #eeeeee;
   margin: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 108px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+}
+.my-team {
+  padding: opx 1px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .pictures-name {
   font-weight: 500;
   font-size: 16px;
   color: var(--main-text-color);
   text-align: center;
-  padding-top: 30px;
+  padding-top: 59px;
 }
 .specialization {
   font-size: 16px;
   color: var(--contacts-header-color);
   text-align: center;
+  padding-top: 30px;
 }
 .description {
   display: flex;
@@ -236,7 +244,6 @@ body {
   display: flex;
   list-style: none;
   gap: 30px;
-  justify-content: center;
 }
 .navigation-footer-header {
   color: #ffffff;
@@ -282,7 +289,6 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .product {
-  width: 370px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -302,7 +308,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   list-style: none;
-  gap: 30px;
+  row-gap: 30px;
   padding-bottom: 94px;
 }
 .team {
