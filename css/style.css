@@ -60,14 +60,14 @@ body {
 }
 .contact-links a {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: var(--contacts-header-color);
 }
 .contact-links {
   display: flex;
   list-style: none;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: var(--contacts-header-color);
   padding-left: 372px;
   gap: 50px;
@@ -120,7 +120,7 @@ body {
 .main-buttons {
   background-color: var(--accent-color);
   font-family: "Roboto";
-  line-height: 30px;
+  line-height: 1.87;
   font-weight: 700;
   font-size: 16px;
   color: #ffffff;
@@ -178,7 +178,7 @@ body {
 }
 .contact a {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: var(--contacts-header-color);
   display: inline-block;
   display: block;
@@ -212,13 +212,12 @@ body {
 }
 .pictures {
   margin: 0px;
-  padding-bottom: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .my-team {
-  padding: opx 1px;
+  padding: 30px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -228,7 +227,6 @@ body {
   font-size: 16px;
   color: var(--main-text-color);
   text-align: center;
-  padding-top: 30px;
 }
 .specialization {
   font-size: 16px;
@@ -294,7 +292,7 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  padding: 20px 24px 4px 24px;
+  padding: 20px 24px;
 }
 .product {
   width: 370px;
@@ -302,10 +300,13 @@ body {
 .product-name {
   font-weight: 700;
   font-size: 18px;
+  line-height: 2;
 }
 .product-description {
   font-size: 16px;
   color: var(--contacts-header-color);
+  line-height: 1.88;
+  padding-top: 4px;
 }
 .product-center {
   display: flex;
