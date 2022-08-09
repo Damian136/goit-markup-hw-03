@@ -10,6 +10,7 @@
   --contacts-header-color: #757575;
   --body-background-color: #ffffff;
   --main-text-color: #212121;
+  --color-icon: #afb1b8;
 }
 .container {
   width: 1200px;
@@ -72,8 +73,8 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: var(--contacts-header-color);
-  padding-left: 372px;
-  gap: 50px;
+  padding-left: 345px;
+  gap: 30px;
 }
 .footer-navigation a {
   text-decoration: none;
@@ -88,7 +89,9 @@ body {
 .main-header {
   display: block;
   margin: auto;
-  background-color: var(--background-color);
+  background-image: linear-gradient(to right, #2f303a66 40%, #2f303a66 40%),
+    url(../images/p10.jpg);
+  background-size: cover;
 }
 .main-text-content {
   display: block;
@@ -215,7 +218,9 @@ body {
   padding-bottom: 50px;
 }
 .pictures {
+  border: 1px solid #eeeeee;
   margin: 0px;
+  padding-bottom: 0px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
